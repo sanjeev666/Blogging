@@ -24,8 +24,6 @@ class Admin_Model extends CI_Model
 
     public function loginFacebookGoogle($username, $password, $remember)
     {
-        echo $username;
-        echo $password; exit;
         $result = $this->db->get_where('users', array('username' => $username, 'password' => $password))->row_array();
 
         if ($result['status'] == 'ACTIVE') {
