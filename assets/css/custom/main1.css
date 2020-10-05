@@ -1,0 +1,93 @@
+p.lead {
+    font-family: medium-content-serif-font, Georgia, Cambria, "Times New Roman", Times, serif !important;
+    font-size: 1.25rem;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.title h1 {
+    color: black;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.w-75 {
+    width: 75%!important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto!important;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto!important;
+}
+
+.mt-5,
+.my-5 {
+    margin-top: 3rem!important;
+}
+
+.mb-3,
+.my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.font-weight-bold.title {
+    letter-spacing: -0.022em;
+    line-height: 1.12;
+    font-style: normal;
+    font-weight: 600;
+    font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial;
+    word-break: break-word;
+    font-size: 26px;
+    line-height: 1.1.;
+    font-weight: bold !important;
+    color: black;
+}
+
+a[target],
+.mail,
+a[target]:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .w-75 {
+        width: 96% !important;
+    }
+    .title h1 {
+        font-size: 23px;
+        line-height: 1.0995;
+        font-weight: 600;
+        letter-spacing: -.003em;
+    }
+    h4.font-weight-bold {
+        font-size: 21px !important;
+    }
+    .lead {
+        font-size: 1.1rem !important;
+        font-weight: 300;
+    }
+    .mainwrapper {
+        padding-bottom: 14% !important;
+    }
+}
+
+.mainwrapper {
+    padding-bottom: 54px !important;
+}
+
+body {
+    background-color: #ffffff !important;
+}

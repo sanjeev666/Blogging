@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    font-style: italic;
+    font-weight: 600;
+    src: url("fonts/sf-pro-display_semibold-italic.woff2");
+}
+
+@font-face {
+    font-family: 'SF Pro Display 600';
+    src: url("fonts/sf-pro-display_semibold.eot");
+}
+
+@font-face {
+    font-family: 'protext';
+    font-style: normal;
+    font-weight: 600;
+    src: url("fonts/sf-pro-text_regular.woff2");
+}
+
+@font-face {
+    font-family: 'thin italic';
+    font-style: normal;
+    font-weight: 600;
+    src: url("fonts/sf-pro-text_thin-italic.woff2");
+}
+
+@font-face {
+    font-family: 'semibold';
+    font-style: normal;
+    font-weight: 600;
+    src: url("fonts/sf-pro-text_semibold.woff2");
+}
+
+@font-face {
+    font-family: 'apptext';
+    font-style: normal;
+    font-weight: 600;
+    src: url("fonts/appleicons_text.woff");
+}
+
+@font-face {
+    font-family: 'SF Pro Icons';
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/SFProIcons_light .woff");
+}
+
+@font-face {
+    font-family: 'SF Pro text light';
+    src: url("fonts/sf-pro-text_light.woff2");
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "semibold";
+    color: #111;
+}
+
+.whiteblack {
+    color: #86868b;
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    /* always p */
+}
+
+.blcktext {
+    font-size: 24px;
+    line-height: 1.33349;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.typography-subpage-intro-elevated {
+    font-size: 24px;
+    line-height: 1.33349;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.page-why-ipad .typography-subpage-hero-eyebrow,
+.page-why-ipad .typography-subpage-hero-headline,
+.page-why-ipad .typography-headline-elevated,
+.page-why-ipad .typography-shared-footer-headline-elevated,
+.page-why-ipad .typography-compare-headline-elevated {
+    font-weight: 700;
+}
+
+.typography-section-headline-super {
+    font-size: 64px;
+    line-height: 1.0625;
+    font-weight: 700;
+    letter-spacing: -.009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.typography-subpage-hero-headline {
+    font-size: 72px;
+    line-height: 1.05556;
+    font-weight: 600;
+    letter-spacing: -.012em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+.theme-dark .theme-light-tertiary .section-intro {
+    color: #86868b;
+}
+
+.link {
+    color: #06c;
+}
+
+.SF-Pro-text-light {
+    font-family: "SF Pro text light";
+    color: #fff;
+}
+
+@media only screen and (max-width: 734px) {
+    .typography-section-intro {
+        font-size: 17px;
+        line-height: 1.23536;
+        font-weight: 600;
+        letter-spacing: -.022em;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .typography-overview-section-subheadline {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 700;
+        letter-spacing: .004em;
+        font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+    }
+}
+
+@font-face {
+    font-family: 'medium-content-serif-font';
+    font-weight: 400;
+    font-style: italic;
+    src: url('charter-400-italic.woff') format('woff');
+    unicode-range: U+0-7F, U+A0, U+200A, U+2014, U+2018, U+2019, U+201C, U+201D, U+2022, U+2026;
+}
+
+
+/* rest */
+
+@font-face {
+    font-family: 'medium-content-serif-font';
+    font-weight: 400;
+    font-style: italic;
+    src: url('charter-400-italic.woff') format('woff');
+    unicode-range: U+80-9F, U+A1-2009, U+200B-2013, U+2015-2017, U+201A-201B, U+201E-2021, U+2023-2025, U+2027-10FFFF;
+}
